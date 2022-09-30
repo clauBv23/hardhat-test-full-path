@@ -1,7 +1,6 @@
 ### Quick Start
-
-Just 
-- Run ``` npm install``` to download the `node_modules` folder, a siymlink to the current project should be added.
+ 
+- Just run ``` npm install``` to download the `node_modules` folder, a siymlink to the current project should be added.
 
 ### Problem
 When running ``` hardhat deploy ``` it is failing with the next error:
@@ -10,4 +9,4 @@ When running ``` hardhat deploy ``` it is failing with the next error:
 
 ### Note
 
-If you run ``` npx truffle compile``` it will works perfectly compiling the files as spected
+If you run ``` npx truffle compile``` it will work perfectly compiling the files as expected
