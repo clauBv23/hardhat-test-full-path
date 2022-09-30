@@ -12,9 +12,9 @@ require('dotenv').config();
 // const RINKEBY_RPC_URL = process.env.RINKEBY_RPC_URL;
 
 module.exports = {
-  paths: {
-    sources: './src',
-  },
+  // paths: {
+  //   sources: './src',
+  // },
   networks: {
     hardhat: {
       tags: ['local'],

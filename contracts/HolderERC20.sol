@@ -5,7 +5,8 @@ import "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol";
 import "@openzeppelin/contracts-upgradeable/proxy/utils/UUPSUpgradeable.sol";
 import "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol";
 import "@openzeppelin/contracts/utils/Counters.sol";
-import "holder-erc20/src/Structs.sol";
+// import "holder-erc20/contracts/Structs.sol";
+import "./Structs.sol";
 
 contract HolderERC20 is UUPSUpgradeable, ERC20Upgradeable, OwnableUpgradeable {
     using Counters for Counters.Counter;
@@ -37,6 +38,7 @@ contract HolderERC20 is UUPSUpgradeable, ERC20Upgradeable, OwnableUpgradeable {
      */
     event HoldRemoved(uint256 indexed holdId);
 
+    /* solhint-disable-next-line no-empty-blocks*/
     constructor() initializer {}
 
     function initialize(string calldata name_, string calldata symbol_) external initializer {
