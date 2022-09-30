@@ -10,3 +10,6 @@ deployments/
 #Hardhat files
 cache
 artifacts
+
+#Truffle files
+build

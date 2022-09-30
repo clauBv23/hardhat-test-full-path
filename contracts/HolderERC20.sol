@@ -5,8 +5,8 @@ import "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol";
 import "@openzeppelin/contracts-upgradeable/proxy/utils/UUPSUpgradeable.sol";
 import "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol";
 import "@openzeppelin/contracts/utils/Counters.sol";
-// import "holder-erc20/contracts/Structs.sol";
-import "./Structs.sol";
+import "holder-erc20/contracts/Structs.sol";
+// import "./Structs.sol";
 
 contract HolderERC20 is UUPSUpgradeable, ERC20Upgradeable, OwnableUpgradeable {
     using Counters for Counters.Counter;
